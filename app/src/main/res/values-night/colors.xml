@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深色模式：仅覆盖需要变化的颜色，主题样式统一在 values/themes.xml 中定义 -->
+
+    <!-- 品牌色：墨绿（深色模式下提亮以保证对比度） -->
+    <color name="brand_primary">#8FCFAE</color>
+    <color name="brand_primary_dark">#6BAE8C</color>
+    <color name="brand_primary_light">#1A2A21</color>
+    <color name="brand_container">#24402F</color>
+    <color name="brand_on_container">#CFEBD9</color>
+
+    <!-- 强调色：暖金 -->
+    <color name="accent_star">#E8B45C</color>
+    <color name="accent_star_bg">#3A2F1B</color>
+
+    <!-- 页面背景与表面 -->
+    <color name="app_bg">#111412</color>
+    <color name="surface">#1B201D</color>
+    <color name="dialog_surface">#242A26</color>
+    <color name="search_bg">#26312B</color>
+    <color name="outline">#2C332E</color>
+    <color name="input_stroke">#525C54</color>
+    <color name="ripple">#33FFFFFF</color>
+
+    <!-- 文字三级层次 -->
+    <color name="text_primary">#EAEFEA</color>
+    <color name="text_secondary">#9BA49D</color>
+    <color name="text_hint">#6E776F</color>
+
+    <!-- 顶部渐变头部 -->
+    <color name="header_start">#1E392C</color>
+    <color name="header_end">#15281E</color>
+
+    <!-- 功能色 -->
+    <color name="danger">#E2837A</color>
+</resources>

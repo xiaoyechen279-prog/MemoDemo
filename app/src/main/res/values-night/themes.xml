@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 深色模式不需要单独定义主题样式：
+         样式统一在 values/themes.xml，深色配色由 values-night/colors.xml 覆盖同名颜色实现。 -->
+</resources>

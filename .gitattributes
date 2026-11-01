@@ -1,0 +1,14 @@
+# 统一换行：Windows 下文本文件用 CRLF，gradlew 脚本必须 LF 才能在 Linux/macOS 上执行
+* text=auto
+*.java text eol=crlf
+*.kt text eol=crlf
+*.kts text eol=crlf
+*.xml text eol=crlf
+*.md text eol=crlf
+*.properties text eol=crlf
+*.toml text eol=crlf
+gradlew text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.webp binary
+*.jar binary

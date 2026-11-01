@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础色 -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 品牌色：墨绿 -->
+    <color name="brand_primary">#2E6B4F</color>
+    <color name="brand_primary_dark">#1E4C37</color>
+    <color name="brand_primary_light">#E4F0E9</color>
+    <color name="brand_container">#D8EBE0</color>
+    <color name="brand_on_container">#123526</color>
+
+    <!-- 强调色：暖金（用于重要备忘录） -->
+    <color name="accent_star">#D9A02E</color>
+    <color name="accent_star_bg">#FBF1DE</color>
+
+    <!-- 页面背景与表面 -->
+    <color name="app_bg">#F7F5F1</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="dialog_surface">#FFFFFF</color>
+    <color name="search_bg">#FFFFFF</color>
+    <color name="outline">#EDE9E2</color>
+    <color name="input_stroke">#C6C0B4</color>
+    <color name="ripple">#1A2E6B4F</color>
+
+    <!-- 文字三级层次 -->
+    <color name="text_primary">#1E2327</color>
+    <color name="text_secondary">#6E7781</color>
+    <color name="text_hint">#A5ADB5</color>
+
+    <!-- 顶部渐变头部 -->
+    <color name="header_start">#37835F</color>
+    <color name="header_end">#225C41</color>
+    <color name="header_text">#FFFFFFFF</color>
+    <color name="header_text_sub">#CCFFFFFF</color>
+    <color name="header_pill_bg">#26FFFFFF</color>
+
+    <!-- 功能色 -->
+    <color name="danger">#C0483F</color>
+</resources>

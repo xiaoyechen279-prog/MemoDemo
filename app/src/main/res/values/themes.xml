@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 应用主题：浅色 / 深色共用同一套样式定义，
+         深色模式通过 values-night/colors.xml 覆盖同名颜色实现。 -->
+    <style name="Base.Theme.MemoDemo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 品牌色 -->
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_container</item>
+        <item name="colorOnPrimaryContainer">@color/brand_on_container</item>
+        <item name="colorSecondary">@color/brand_primary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- 背景与表面 -->
+        <item name="android:colorBackground">@color/app_bg</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceContainerHigh">@color/dialog_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorError">@color/danger</item>
+
+        <!-- 文字 -->
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:windowBackground">@color/app_bg</item>
+
+        <!-- 沉浸式状态栏 / 导航栏：头部为深色渐变，故状态栏图标固定为白色 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.MemoDemo" parent="Base.Theme.MemoDemo" />
+</resources>
